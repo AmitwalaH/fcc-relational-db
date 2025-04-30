@@ -35,3 +35,6 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git remote add origin https://github.com/AmitwalaH/fcc-relational-db.git
 git remote add origins https://github.com/AmitwalaH/fcc-relational-db.git
 git add .
+git commit -m "Build a Celestial Bodies Database "
+git push origins main
+psql --username=freecodecamp --dbname=postgres
